@@ -1,20 +1,16 @@
 {
-  "name": "gemini-ai-api-try",
+  "name": "gemini-ai-sandbox",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/aldeniaalexandra/gemini-ai-api-try.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/aldeniaalexandra/gemini-ai-api-try/issues"
-  },
-  "homepage": "https://github.com/aldeniaalexandra/gemini-ai-api-try#readme"
+  "description": "",
+  "dependencies": {
+    "@google/genai": "^1.5.1"
+  }
 }
